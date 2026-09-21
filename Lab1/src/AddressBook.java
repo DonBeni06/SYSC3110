@@ -16,5 +16,7 @@ public class AddressBook {
         AddressBook addy = new AddressBook();
         addy.addBuddy(buddy); // main is static - belongs to class not an object - must create an object to run a method on it
         addy.removeBuddy(buddy);
+
+
     }
 }
