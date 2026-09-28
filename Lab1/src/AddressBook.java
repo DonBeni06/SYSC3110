@@ -10,6 +10,11 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo bud) {
         buddies.remove(bud);
     }
+
+    public BuddyInfo newBuddy(String name, int age) {
+        return new BuddyInfo(name, age);
+    }
+
    public AddressBook() {
    }
 
