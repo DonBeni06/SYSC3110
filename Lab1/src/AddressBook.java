@@ -20,7 +20,6 @@ public class AddressBook {
         addy.addBuddy(buddy); // main is static - belongs to class not an object - must create an object to run a method on it
         addy.addBuddy(buddy2);
         addy.removeBuddy(buddy);
-
-
+//text edit on browser
     }
 }
